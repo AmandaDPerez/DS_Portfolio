@@ -59,7 +59,7 @@
 
 .hero {
   position: relative;
-  background-color: var(--maximum-yellow-red_a10);
+  background-color: var(--light-pink);
   padding-block-start: calc(var(--section-padding) + 60px);
   text-align: center;
   overflow: hidden;
@@ -72,7 +72,7 @@
   left: 10%;
   bottom: 70%;
   right: -75%;
-  background-color: var(--maximum-yellow-red_a40);
+  background-color: var(--light-pink);
   transform: rotate(-45deg);
   border-radius: var(--radius-50);
   z-index: -1;

@@ -39,10 +39,10 @@
 
 .btn-tertiary {
   color: var(--jet);
-  background-color: var(--maximum-yellow-red);
+  background-color: var(--light-pink);
   --shadow-color: var(--pink);
   --hover-bg: var(--pink);
-  --hover-shadow-color: var(--maximum-yellow-red);
+  --hover-shadow-color: var(--light-pink);
 }
 
 .btn-tertiary:is(:hover, :focus-visible) { color: var(--white); }

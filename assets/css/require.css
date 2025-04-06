@@ -36,6 +36,7 @@
   --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
   --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
   --maximum-yellow-red: hsl(41, 99%, 64%);
+  --light-pink: rgb(255,132,231);
   --orange-red_a20: hsla(19, 100%, 55%, 0.2);
   --eerie-black: hsl(210, 11%, 15%);
   --orange-red: hsl(19, 100%, 55%);
