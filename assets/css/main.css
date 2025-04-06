@@ -125,12 +125,16 @@
   #ABOUT
 \*-----------------------------------*/
 
-.about .container {
-  display: grid;
-  gap: 50px;
+.section.about .container {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* space between text and image */
+  flex-wrap: wrap; /* optional: allows wrapping on smaller screens */
 }
 
-.about .section-text { margin-block: 25px 16px; }
+.about .section-text {
+  margin-block: 25px 16px;
+}
 
 .about-list {
   display: flex;
@@ -156,7 +160,19 @@
   gap: 15px 25px;
 }
 
+.about-banner {
+  order: 2;
+}
 
+.about-content {
+  order: 1;
+  flex: 1;
+}
+
+.about-banner img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
