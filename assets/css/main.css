@@ -89,6 +89,9 @@
 .hero-content {
   order: 1;
   flex: 1;
+  font-size: 2.5rem; /* Or 3rem if you want it extra bold */
+  font-weight: bold;
+  margin-block-end: 1rem;
 }
 
 .hero-subtitle {
