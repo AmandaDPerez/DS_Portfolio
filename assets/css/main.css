@@ -61,6 +61,7 @@
   position: relative;
   background-color: var(--maximum-yellow-red_a10);
   padding-block-start: calc(var(--section-padding) + 60px);
+  text-align: center;
   overflow: hidden;
 }
 
@@ -77,21 +78,9 @@
   z-index: -1;
 }
 
-/* Layout like "about" section */
 .hero .container {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  text-align: left;
-}
-
-.hero-content {
-  order: 1;
-  flex: 1;
-  font-size: 2.5rem; /* Or 3rem if you want it extra bold */
-  font-weight: bold;
-  margin-block-end: 1rem;
+  display: grid;
+  gap: 70px;
 }
 
 .hero-subtitle {
@@ -102,24 +91,17 @@
   margin-block-end: 20px;
 }
 
-.hero-text {
-  margin-block: 25px;
-}
+.hero-text { margin-block: 25px; }
 
-.hero .btn {
-  /* Buttons will align left on desktop, center on mobile */
-  margin-inline: 0;
-}
+.hero .btn { margin-inline: auto; }
 
 .hero-banner {
-  order: 2;
   max-width: max-content;
+  margin-inline: auto;
 }
 
-.hero-banner img {
-  max-width: 100%;
-  height: auto;
-}
+
+
 
 
 /*-----------------------------------*\
