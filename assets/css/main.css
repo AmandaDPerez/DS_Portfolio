@@ -101,8 +101,16 @@
 }
 
 
+/* Adjust hero title font size */  
+.hero h1 {  
+  font-size: 2rem; /* Adjust the value to suit your preference */  
+}
 
-
+/* Widen the hero text area */  
+.hero .hero-content {  
+  max-width: 800px;  /* Increase this value if needed */  
+  margin: 0 auto;    /* Centers the content */  
+}  
 
 /*-----------------------------------*\
   #CLIENT
