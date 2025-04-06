@@ -103,7 +103,7 @@
 
 /* Adjust hero title font size */  
 .hero h1 {  
-  font-size: 2rem; /* Adjust the value to suit your preference */  
+  font-size: 4rem; /* Adjust the value to suit your preference */  
 }
 
 /* Widen the hero text area */  
@@ -112,6 +112,11 @@
   margin: 0 auto;    /* Centers the content */  
 }  
 
+/* Reduce the hero banner image size */  
+.hero .hero-banner img {  
+  max-height: 500px; /* Adjust the max-height value to make it smaller */  
+  width: auto;      /* Maintain the aspect ratio */  
+}  
 /*-----------------------------------*\
   #CLIENT
 \*-----------------------------------*/
